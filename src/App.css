@@ -1,0 +1,83 @@
+.search-area
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  flex-direction: column;
+}
+.search-area span 
+{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #a5a5a5;
+  display: block;
+  margin-top: 5px;
+}
+
+.input
+{
+  width: 300px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button
+{
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid #009688;
+  background: transparent;
+  cursor:pointer;
+}
+.item
+{
+  border: 1px solid #a5a5a5;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.item h3
+{
+  text-align: center;
+}
+.item-area
+{
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding: 5px 20px;
+  grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+}
+.item .info
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.item .info span
+{
+  font-size: 15px;
+}
+.item a 
+{
+  text-decoration: none;
+  color:black;
+  font-weight: 700;
+  padding: 5px 10px;
+  border:1px solid #3F5185;
+  border-radius: 5px;
+}
+.pagination
+{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
